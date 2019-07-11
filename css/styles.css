@@ -107,3 +107,51 @@ body {
     padding: 0 50px;
     width: 380px;
 }
+.fthr {
+    border-top-color: #00a4c5;
+    margin-top: 90px;
+    margin-bottom: 80px;
+}
+.ft_txt {
+    text-align: center;
+    font-size: 19px;
+    font-weight: 300;
+    margin-bottom: 80px;
+}
+.ft_details ul li {
+    list-style: none;
+    display: inline-block;
+}
+.ft_details ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+.copy {
+    margin-bottom: 10px;
+}
+.ftlink {
+    margin-top: 10px;
+}
+.ftlink a {
+    color: #fff;
+    text-decoration: none !important;
+    padding: 0 8px;
+}
+.ft_bottom.text-center {
+    background: #252525;
+    padding: 50px 0;
+    color: #fff;
+}
+.copy span {
+    padding: 0 8px;
+}
+.ft_details li img {
+    width: 28px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
