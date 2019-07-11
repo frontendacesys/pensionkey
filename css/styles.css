@@ -7,6 +7,7 @@ html,
 body {
 	margin: 0;
     font-family: 'Montserrat', sans-serif;
+    color: #252525;
 }
 .bc {
 	color: #00a4c5;
@@ -37,7 +38,8 @@ body {
 }
 
 .intro h1,
-.pnsform h1 {
+.pnsform h1, 
+.abt_intro h1 {
 
     font-size: 54px;
     line-height: 68px;
@@ -112,6 +114,9 @@ body {
     margin-top: 90px;
     margin-bottom: 80px;
 }
+.fthr-t {
+    border-top-color: transparent !important;
+}
 .ft_txt {
     text-align: center;
     font-size: 19px;
@@ -154,4 +159,42 @@ body {
     width: 28px;
     vertical-align: middle;
     margin-right: 10px;
+}
+.abt_intro {
+    padding: 100px 0 100px;
+    background: url('../img/abt_bg.jpg') no-repeat center #fff;
+    columns: ;
+}
+
+.abt_intro h1 {
+    color: #252525;
+    margin-bottom: 60px;
+}
+
+.abt_intro h4 {
+    font-size: 36px;
+    font-weight: 400;
+    padding: 10px 40px;
+    line-height: 50px;
+    margin-top: 80px;
+}
+.abt_cont {
+    padding: 80px 0;
+    background: #1967a9;
+    color: #fff;
+    font-size: 36px;
+    text-align: center;
+    font-weight: 300;
+}
+
+.abt_item p {
+    padding: 20px 36px;
+}
+
+.shr {
+
+    border-color: #00a4c5;
+    max-width: 300px;
+    margin: 50px auto;
+
 }
