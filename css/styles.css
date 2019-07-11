@@ -1,0 +1,109 @@
+/*------------------------*/
+/*  PensionKey Global     */
+/*  Version: 1.0;         */
+/*------------------------*/
+
+html,
+body {
+	margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.bc {
+	color: #00a4c5;
+}
+.header .navbar.navbar-expand-lg {
+    padding: 25px 0;
+}
+.navbar-nav .nav-item .nav-link {
+
+    color: #000e1f;
+    padding: 0 24px;
+    font-weight: 500;
+    border-right: 2px solid #00a4c5;
+    line-height: 18px;
+
+}
+.navbar-nav .nav-item:last-child .nav-link {
+    padding-right: 0;
+    border-right: 0;
+}
+
+.intro {
+    background: url(../img/slide_bg.jpg) no-repeat center #000e1f;
+    color: #fff;
+    padding: 70px 0;
+    text-align: center;
+    background-size: cover;
+}
+
+.intro h1,
+.pnsform h1 {
+
+    font-size: 54px;
+    line-height: 68px;
+    margin-bottom: 36px;
+    color: #fff;
+    text-align: center;
+
+}
+.intro h2 {
+
+    font-size: 36px;
+    margin-bottom: 36px;
+
+}
+.intro h3 {
+
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 36px;
+    margin-bottom: 36px;
+
+}
+.intro h4 {
+
+    font-size: 21px;
+
+}
+.pnsform {
+	background: #1967a9;
+    padding: 70px 0;
+
+}
+.pension_form {
+    max-width: 700px;
+    margin: auto;
+}
+
+.pension_form .form-control {
+
+    border-radius: 0;
+    height: 45px;
+    max-width: 94%;
+    margin: 0 auto 10px;
+    outline: none !important;
+    box-shadow: none !important;
+
+}
+.pension_form .form-control::placeholder {
+
+    opacity: 1;
+    font-weight: 600;
+    color: #c2c2c2;
+
+}
+.btn-primary {
+    background-color: #00a4c5;
+    border-color: #00a4c5;
+}
+.btn-primary:hover {
+    background-color: #0098b9;
+    border-color: #0098b9;
+}
+.submitPns {
+    margin-top: 40px;
+    font-size: 40px;
+    font-weight: 500;
+    padding: 0 50px;
+    width: 380px;
+}
