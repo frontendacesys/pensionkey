@@ -680,4 +680,7 @@ input[type="number"] {
         padding: 30px 0;
     
     }
+    .faqCollapse .collapse, .faqCollapse .collapsing {
+        border: 1px solid #818286;
+    }
 }
