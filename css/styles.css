@@ -8,6 +8,7 @@ body {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
     color: #252525;
+    min-width: 320px;
 }
 
 .bc {
@@ -199,6 +200,7 @@ body {
 .abt_intro {
     padding: 100px 0 100px;
     background: url('../img/abt_bg.jpg') no-repeat center top #fff;
+    background-size: cover;
 }
 
 .abt_intro h1 {
@@ -363,4 +365,313 @@ input[type="number"] {
 
 .mTitle.sm {
     padding: 50px 0;
+}
+
+.navbar-light .navbar-toggler {
+    outline: none !important;
+}
+/* MQ */
+@media only screen and (max-width: 992px) {
+    .navbar-brand > .img-fluid {
+        width: 250px !important;
+    }
+    #menuToggler {
+        background: #f9f9f9;
+        padding: 10px;
+        border-top: 3px solid #00a4c5;
+        margin-top: 10px;
+    }
+    #menuToggler li a {
+        padding: 14px;
+        border-right: 0;
+        border-top: 1px solid #eee;
+    }
+    #menuToggler li:first-child a {
+        border-top: 0;
+    }
+    .intro h1, .pnsform h1, .abt_intro h1, .mTitle h1 {
+        font-size: 38px;
+        line-height: 52px;
+        margin-bottom: 28px;
+    }
+    .intro h2 {
+        font-size: 30px;
+        margin-bottom: 28px;
+    }
+    .intro h3 {
+        font-size: 22px;
+        line-height: 28px;
+        margin-bottom: 28px;
+    }
+    .intro h4 {
+        font-size: 17px;
+    }
+    .submitPns {
+        margin-top: 30px;
+        font-size: 34px;
+        width: 360px;
+    }
+    .ft_txt {
+        font-size: 16px;
+    }
+    .ft_details ul li {
+        width: 50%;
+    }
+    .ft_details ul li {
+    width: 50%;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.ft_details ul {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        padding: 0;
+}
+.ft_bottom.text-center {
+    font-size: 14px;
+}
+.abt_intro h4 {
+
+    font-size: 26px;
+    font-weight: 300;
+}
+.abt_cont {
+    font-size: 26px;
+}
+.fthr-t {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.abt_cont + .footer .ft_details ul {
+
+    display: block;
+    width: 300px;
+    margin: 30px auto;
+
+}
+.ft_details ul li {
+    width: 100%;
+}
+.mTitle {
+    padding: 50px 0;
+}
+}
+@media only screen and (max-width: 768px) {
+	.container {
+    max-width: 90%;
+}
+.intro h1, .pnsform h1, .abt_intro h1, .mTitle h1 {
+    font-size: 32px;
+    line-height: 44px;
+}
+.submitPns {
+    font-size: 28px;
+    width: 300px;
+    padding: 8px 50px;
+}
+.ft_details ul li {
+    font-size: 12px;
+   }
+   .fthr {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.intro h2 {
+    font-size: 24px;
+    margin-bottom: 22px;
+}
+.intro h3 {
+    font-size: 20px;
+}
+.intro h4 {
+    font-size: 14px;
+    line-height: 22px;
+}
+.abt_intro h4 {
+
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 34px;
+    margin-top: 40px;
+
+}
+.abt_intro {
+
+    padding: 60px 0;
+}
+.abt_cont {
+    font-size: 20px;
+}
+.shr {
+    max-width: 220px;
+    margin: 30px auto;
+}
+.abt_cont {
+    padding: 60px 0;
+}
+.fthr {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.faqCollapse .card, .faqCollapse .card-header .btn.btn-link {
+    font-size: 14px;
+}
+.circle-plus .circle .vertical {
+    width: 2px;
+    height: 14px;
+    margin-left: -1px;
+    margin-top: -7px;   
+}
+.circle-plus .circle .horizontal {
+    width: 14px;
+    height: 2px;
+    margin-left: -7px;
+    margin-top: -1px;
+}
+}
+@media only screen and (max-width: 640px) {
+	
+	.intro h1, .pnsform h1, .abt_intro h1, .mTitle h1 {
+    font-size: 28px;
+    line-height: 38px;
+}
+.intro h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.intro h3 {
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 26px;
+}
+.intro h4 br {
+
+    display: none;
+
+}
+.pension_form .form-row .col {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+}
+.pension_form .form-row .col-6 {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+    max-width: 100%;
+}
+.form-row.justify-content-center .col-7 {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+    max-width: 100%;
+}
+.submitPns {
+    width: 94%;
+    padding: 8px 50px;
+}
+.ft_details ul li {
+
+    width: 260px;
+}
+.copy {
+    font-size: 0;
+    line-height: 12px;
+}
+.copy span,
+.ftlink a {
+    color: #fff;
+    display: block;
+    font-size: 12px;
+}
+.ftlink {
+    color: #252525;
+    font-size: 0;
+}
+.abt_intro h4 {
+    font-size: 16px;
+    margin-top: 24px;
+}
+.abt_cont {
+    font-size: 16px;
+}
+.shr {
+    max-width: 180px;
+    margin: 18px auto;
+}
+.mTitle {
+    padding: 30px 0;
+}
+.mTitle.sm h1 {
+    font-size: 36px;
+    line-height: 42px;
+}
+.fullContent {
+    font-size: 14px;
+    font-weight: 300;
+}
+}
+
+@media only screen and (max-width: 440px) {
+    .navbar-brand > .img-fluid {
+        width: 200px !important;
+    }
+    .intro h1, .pnsform h1, .abt_intro h1, .mTitle h1 {
+        font-size: 22px;
+        line-height: 34px;
+    }
+    .intro h2 {
+        font-size: 17px;
+        margin-bottom: 20px;
+    }
+    .intro h3 {
+        font-size: 14px;
+        line-height: 22px;
+        margin-bottom: 20px;
+    }
+    .intro h4 {
+        font-weight: 400;
+    
+    }
+    .submitPns {
+        font-size: 22px;
+    }
+    .ft_txt {
+        font-size: 14px;
+    }
+    .ft_bottom.text-center {
+        padding: 30px 0;
+    }
+    .abt_intro h4 {
+        font-size: 14px;
+        line-height: 26px;
+    }
+    .abt_cont {
+        font-size: 14px;
+    }
+    .abt_cont {
+        padding: 40px 0;
+    }
+    .navbar-brand > .img-fluid {
+
+        width: 180px !important;
+    
+    }
+    .ft_logo img {
+        width: 180px !important;
+    }
+    .abt_item p {
+        padding: 20px 0;
+    }
+    .abt_intro {
+
+        padding: 30px 0 60px;
+    
+    }
+    .mTitle.sm h1 {
+        font-size: 30px;
+        line-height: 36px;
+    }
+    .mTitle.sm {
+
+        padding: 30px 0;
+    
+    }
 }
