@@ -5,16 +5,20 @@
 
 html,
 body {
-	margin: 0;
+    margin: 0;
     font-family: 'Montserrat', sans-serif;
     color: #252525;
 }
+
 .bc {
-	color: #00a4c5 !important;
+    color: #00a4c5 !important;
 }
+
 .header .navbar.navbar-expand-lg {
     padding: 25px 0;
+    background: transparent !important;
 }
+
 .navbar-nav .nav-item .nav-link {
 
     color: #000e1f;
@@ -24,6 +28,7 @@ body {
     line-height: 18px;
 
 }
+
 .navbar-nav .nav-item:last-child .nav-link {
     padding-right: 0;
     border-right: 0;
@@ -38,7 +43,7 @@ body {
 }
 
 .intro h1,
-.pnsform h1, 
+.pnsform h1,
 .abt_intro h1,
 .mTitle h1 {
 
@@ -49,8 +54,14 @@ body {
     text-align: center;
 
 }
+
 .mTitle h1 {
     font-weight: 700;
+}
+
+.mTitle.sm h1 {
+    font-size: 44px;
+    font-weight: 600;
 }
 
 .intro h2 {
@@ -59,6 +70,7 @@ body {
     margin-bottom: 36px;
 
 }
+
 .intro h3 {
 
     font-weight: 300;
@@ -67,16 +79,19 @@ body {
     margin-bottom: 36px;
 
 }
+
 .intro h4 {
 
     font-size: 21px;
 
 }
+
 .pnsform {
-	background: #1967a9;
+    background: #1967a9;
     padding: 70px 0;
 
 }
+
 .pension_form {
     max-width: 700px;
     margin: auto;
@@ -92,6 +107,7 @@ body {
     box-shadow: none !important;
 
 }
+
 .pension_form .form-control::placeholder {
 
     opacity: 1;
@@ -99,14 +115,17 @@ body {
     color: #c2c2c2;
 
 }
+
 .btn-primary {
     background-color: #00a4c5;
     border-color: #00a4c5;
 }
+
 .btn-primary:hover {
     background-color: #0098b9;
     border-color: #0098b9;
 }
+
 .submitPns {
     margin-top: 40px;
     font-size: 40px;
@@ -114,24 +133,29 @@ body {
     padding: 0 50px;
     width: 380px;
 }
+
 .fthr {
     border-top-color: #00a4c5;
     margin-top: 90px;
     margin-bottom: 80px;
 }
+
 .fthr-t {
     border-top-color: transparent !important;
 }
+
 .ft_txt {
     text-align: center;
     font-size: 19px;
     font-weight: 300;
     margin-bottom: 80px;
 }
+
 .ft_details ul li {
     list-style: none;
     display: inline-block;
 }
+
 .ft_details ul {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -141,33 +165,40 @@ body {
     margin-top: 60px;
     margin-bottom: 40px;
 }
+
 .copy {
     margin-bottom: 10px;
 }
+
 .ftlink {
     margin-top: 10px;
 }
+
 .ftlink a {
     color: #fff;
     text-decoration: none !important;
     padding: 0 8px;
 }
+
 .ft_bottom.text-center {
     background: #252525;
     padding: 50px 0;
     color: #fff;
 }
+
 .copy span {
     padding: 0 8px;
 }
+
 .ft_details li img {
     width: 28px;
     vertical-align: middle;
     margin-right: 10px;
 }
+
 .abt_intro {
     padding: 100px 0 100px;
-    background: url('../img/abt_bg.jpg') no-repeat center #fff;
+    background: url('../img/abt_bg.jpg') no-repeat center top #fff;
 }
 
 .abt_intro h1 {
@@ -183,6 +214,7 @@ body {
     line-height: 50px;
     margin-top: 80px;
 }
+
 .abt_cont {
     padding: 80px 0;
     background: #1967a9;
@@ -201,15 +233,17 @@ body {
     max-width: 300px;
     margin: 50px auto;
 }
+
 input[type="number"] {
     -webkit-appearance: textfield;
-            appearance: textfield;
+    appearance: textfield;
     -moz-appearance: textfield;
 }
 
 .mTitle {
     padding: 80px 0;
 }
+
 .faqCollapse .card-header {
 
     background: #fff !important;
@@ -220,6 +254,7 @@ input[type="number"] {
 
 
 }
+
 .faqCollapse .card-header .btn.btn-link {
     color: #fff;
     display: block;
@@ -233,20 +268,24 @@ input[type="number"] {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
 }
+
 .faqCollapse .card {
     border: 0;
     margin-bottom: 15px;
 }
-.faqCollapse .collapse, .faqCollapse .collapsing {
+
+.faqCollapse .collapse,
+.faqCollapse .collapsing {
     border: 2px solid #818286;
     margin-bottom: 15px;
 }
+
 .faqCollapse .card-header .btn.btn-link[aria-expanded="true"] {
     background: #00a4c5 !important;
     border-color: #00a4c5 !important;
@@ -255,29 +294,32 @@ input[type="number"] {
 [aria-expanded="false"] .vertical {
     transition: all 0.3s ease-in-out;
     transform: rotate(-90deg);
-  }
+}
+
 [aria-expanded="false"] .horizontal {
     transition: all 0.3s ease-in-out;
     transform: rotate(-90deg);
     opacity: 1;
-  }
-  
- [aria-expanded="true"] .circle-plus {
+}
+
+[aria-expanded="true"] .circle-plus {
     opacity: 1;
-  }
-  [aria-expanded="true"] .vertical {
+}
+
+[aria-expanded="true"] .vertical {
     transition: all 0.3s ease-in-out;
     transform: rotate(90deg);
     background: #00a4c5 !important;
-  }
-  [aria-expanded="true"] .horizontal {
+}
+
+[aria-expanded="true"] .horizontal {
     transition: all 0.3s ease-in-out;
     transform: rotate(90deg);
     background: #00a4c5 !important;
     opacity: 0;
-  }
-  
-  .circle-plus {
+}
+
+.circle-plus {
 
     height: 35px;
     width: 35px;
@@ -287,17 +329,17 @@ input[type="number"] {
     vertical-align: middle;
 
 }
-  
-  .circle-plus .circle {
+
+.circle-plus .circle {
     position: relative;
     width: 35px;
     height: 35px;
     border-radius: 100%;
     background: #eee;
     padding: 10px;
-  }
-  
-  .circle-plus .circle .horizontal {
+}
+
+.circle-plus .circle .horizontal {
     position: absolute;
     background-color: #000e1f;
     width: 18px;
@@ -306,9 +348,9 @@ input[type="number"] {
     margin-left: -9px;
     top: 50%;
     margin-top: -2px;
-  }
-  
-  .circle-plus .circle .vertical {
+}
+
+.circle-plus .circle .vertical {
     position: absolute;
     background-color: #000e1f;
     width: 4px;
@@ -317,5 +359,8 @@ input[type="number"] {
     margin-left: -2px;
     top: 50%;
     margin-top: -9px;
-  }
-  
+}
+
+.mTitle.sm {
+    padding: 50px 0;
+}
